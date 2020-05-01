@@ -1,6 +1,7 @@
 var page = 0;
 
-var socket = io('ws://192.168.209.37:6554');
+var wip = "ws://"+window.location.host;
+var socket = io(wip);
 $(function(){
 
     

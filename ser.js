@@ -151,4 +151,8 @@ io.on('connection', function(socket) {
           io.sockets.emit('appear_egg', data);
     })  
 
+    socket.on('lay_egg', function(data){
+          console.log("laying egg ");
+          io.sockets.emit('get_egg', data);
+    })  
 })

@@ -1,8 +1,6 @@
 const PORT = "5321";
 
 
-
-
 $(document).ready(function (){
   
   console.log(document.cookie);
