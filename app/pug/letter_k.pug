@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title letter
+        meta(charset="utf-8")
+        script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+        link(href="./css/login.css", rel="stylesheet" type="text/css")
+        script(href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js")
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js")
+        script(src="./js/jquery.min.js")
+        script(src="./js/socket.io.js")
+        script(src="./js/dino_k.js")
+    body
+        textarea(cols="50" rows="5" id="letter")
+        button(class="btn btn--stripe" id="login" type="submit" onclick="send_letter()") SEND

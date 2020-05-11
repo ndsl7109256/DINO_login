@@ -1,6 +1,6 @@
 var page = 0;
 
-var wip = "ws://"+window.location.host;
+var wip = "wss://"+window.location.host;
 var socket = io(wip);
 $(function(){
 

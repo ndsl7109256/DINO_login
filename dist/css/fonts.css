@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Gen-M';
+  src: url("../res/fonts/GenJyuuGothic-P-Medium.ttf"); }
+
+@font-face {
+  font-family: 'Gen-N';
+  src: url("../res/fonts/GenJyuuGothic-P-Normal.ttf"); }
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url("../res/fonts/HelveticaNowDisplay-ExtBlk.ttf"); }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Story</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="./login.css" rel="stylesheet" type="text/css">
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <!--link(href="http://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js")-->
+    <script src="jquery.min.js"></script>
+    <script src="socket.io.js"></script>
+  </head>
+  <body>
+    <h1 id="mailbox"></h1>
+
+    <button value="HI!789"onclick="aaaa(this.value)">press me!</button>
+    <button value="HI!123"onclick="aaaa(this.value)">press me!</button>
+    
+
+    <script src="./story.js"></script>
+
+    <script type="text/javascript">     
+      function aaaa(val) {
+          alert(val);
+      }
+
+
+      var node = document.createElement("h2");                 // Create a <li> node
+      var textnode = document.createTextNode("Water");         // Create a text node
+      node.appendChild(textnode);                              // Append the text to <li>
+      document.getElementById("mailbox").appendChild(node);     // Append <li> to <ul> with id="myList"
+      document.getElementById("mailbox").appendChild("<br></br>");
+      textnode = document.createTextNode("Noodle");
+      node.appendChild(textnode);
+      document.getElementById("mailbox").appendChild(node);     // Append <li> to <ul> with id="myList"
+    </script>
+  </body>
+</html>

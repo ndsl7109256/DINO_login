@@ -1,0 +1,146 @@
+html {
+  position: fixed;
+  height: 100vh;
+  width: 100vw; }
+
+body {
+  background-color: #F9FFF8;
+  overflow: hidden; }
+
+.image {
+  position: absolute; }
+
+.bg_L1 {
+  width: 46.45vw;
+  left: 0vw;
+  top: 0vh;
+  z-index: 1; }
+
+.bg_L2 {
+  width: 50vw;
+  left: -11.24vw;
+  top: -0.02vh;
+  z-index: 2; }
+
+.bg_L3 {
+  width: 28.5vw;
+  left: -0.01vw;
+  top: -1.77vh;
+  z-index: 4; }
+
+.bg_L4 {
+  width: 22.7vw;
+  left: -1.75vw;
+  top: -0.69vh;
+  z-index: 5; }
+
+.leaf_L1 {
+  width: 55.85vw;
+  left: -28.5vw;
+  top: 6.27vh;
+  z-index: 6; }
+
+.leaf_L2 {
+  width: 37vw;
+  left: -11.6vw;
+  top: 2.5vh;
+  z-index: 7; }
+
+.bg_R1 {
+  width: 53.5vw;
+  right: -9.3vw;
+  top: 0vh; }
+
+.bg_R2 {
+  width: 49.3vw;
+  right: -12vw;
+  top: -1.19vh; }
+
+.bg_R3 {
+  width: 30.8vw;
+  right: 0vw;
+  top: 0vh; }
+
+.bg_4 {
+  width: 16vw;
+  right: 0.2vw;
+  top: -0.5vh; }
+
+.leaf_R2 {
+  width: 35.4vw;
+  right: -16.3vw;
+  top: 9.1vh; }
+
+.vine1 {
+  width: 74vw;
+  left: 6vw;
+  top: -14.3vh;
+  z-index: 3; }
+
+.vine2 {
+  width: 57vw;
+  right: -4.7vw;
+  top: 0; }
+
+.vine3 {
+  width: 57vw;
+  right: -6.6vw;
+  top: -1.45vh;
+  z-index: -1; }
+
+.LOGO {
+  width: 68.3vw;
+  right: 15.85vw;
+  top: 25.9vh;
+  z-index: 3; }
+
+.LOGO_back {
+  width: 67vw;
+  right: 15.85vw;
+  top: 25.9vh;
+  z-index: 2; }
+
+.egg {
+  width: 107vw;
+  right: -5vw;
+  top: 24.8vh;
+  z-index: 2; }
+
+.leaf_R1-1 {
+  width: 43vw;
+  right: -11.5vw;
+  top: 23.6vh;
+  z-index: 2; }
+
+.leaf_R2-2 {
+  width: 47.3vw;
+  right: -12vw;
+  top: 29vh;
+  z-index: 4; }
+
+.Pterodactyl {
+  width: 6.5vw;
+  left: 45.5vw;
+  top: 14.7vh; }
+
+.bg_yama {
+  width: 100vw;
+  top: 19.7vh; }
+
+.bg_yama2 {
+  width: 45vw;
+  right: -13.5vw;
+  top: 21vh;
+  z-index: -1; }
+
+.bigleaf_front {
+  width: 108vw;
+  right: -4vw;
+  top: 39.1vh;
+  z-index: 3; }
+
+.bigleaf_back {
+  width: 140vw;
+  right: -20vw;
+  top: 28vh;
+  z-index: 1; }
