@@ -17,6 +17,7 @@ $(document).ready(function () {
       
       if (list.exist == true) {
         $('#ajax-output').html(list.text);
+        alert('this id is used');
         //$('#pic').html("<img src=\"./res/pic" + list.pic + ".png\"/>");
         //document.getElementById("typein").style.visibility = "hidden";
       } else {
