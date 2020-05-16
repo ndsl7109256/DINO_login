@@ -1,0 +1,35 @@
+
+.dino {
+  width: 150vw;
+  position: absolute;
+  right: -100vw;
+  bottom:2vh;
+  z-index:2;
+}
+.dino-after {
+  animation-name: move;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+}
+
+
+.layegg {
+  overflow: hidden; }
+.getegg{
+  position:absolute;
+  bottom:60vh;
+}
+
+.egg{
+  position:absolute;
+  display:none;
+  z-index:1;
+  bottom:45vh;
+}
+
+@keyframes move {
+  0% {bottom:2vh;right:-100vw;}
+  50% {bottom:7vh;right: 30vw;width:150vw;} 
+  100% {bottom:15vh;right:30vw;width:250vw;}
+}
+
