@@ -6,19 +6,18 @@
 
 @font-face{
     font-family: GenJyuuGothicH;
-    src: url("./res/fonts/genjyuugothic/GenJyuuGothic-P-Heavy.ttf");
+    src: url("./../res/fonts/genjyuugothic/GenJyuuGothic-P-Heavy.ttf");
 }
 @font-face{
     font-family: GenJyuuGothicM;
-    src: url("./res/fonts/genjyuugothic/GenJyuuGothic-P-Medium.ttf");
+    src: url("./../res/fonts/genjyuugothic/GenJyuuGothic-P-Medium.ttf");
 }
 
-.GenJyuuGothicH{
-    font-family: GenJyuuGothicH;
+@font-face{
+    font-family: GenJyuuGothicN;
+    src: url("./../res/fonts/GenJyuuGothic-P-Normal.ttf");
 }
-.GenJyuuGothicM{
-    font-family: GenJyuuGothicM;
-}
+
 
 body {
     background: url("./../assests/背景.png");
@@ -26,10 +25,12 @@ body {
 }
 
 .left_selection{
+    position: absolute;
     /* Try to group it later */
 }
 
 .right_selection{
+    position: absolute;
     /* Try to group it later */
 }
 
@@ -142,41 +143,89 @@ money_group{
     bottom: 4.5vh;
     right: 7.8vw;
 }
-
-.information_box{
-    width: 100vw;
-    height: 29vh;
-    bottom: 0vh;
-    background-color: white;
-    opacity: 0;
-    display: none;/************************************/
-}
-
-#subtitle_text_01{
-    position: absolute;
-    font-size: 25pt;
-    letter-spacing: 1px;
-    top: 4.5vh;
-    left: 8vw;
-    opacity: 0;
-}
-
-#subtitle_text_02{
-    position: absolute;
-    font-size: 25pt;
-    letter-spacing: 1px;
-    top: 6vh;
-    left: 15vw;
-    opacity: 0;
+/** 以下為加上的扣 **/
+.info{
+    display: none;
 }
 
 .write_letter{
     display: none;
 }
 
+#letter_bg_rec{
+    position: absolute;
+    left: 9vw;
+    top: 32vh;
+    width: 80vw;
+    z-index: 3;
+    display: none;
+}
+
 #letter_bg{
     position: absolute;
     left: 9vw;
-    top: 25vh;
+    top: 32vh;
     width: 80vw;
+    z-index: 4;
 }
+
+#letter_info{
+    width: 100vw;
+    top: 73.5vh;
+}
+
+#letter_info_click{
+    position: absolute;
+    left: 40vw;
+    top: 92vh;
+}
+
+#letter{
+    left: 18vw;
+    top: 44vh;
+    border-radius: 40px;
+    resize: none;
+    width: 62vw;
+    height: 28vh;
+    font-size: 3vw;
+    font-family: GenJyuuGothicN;
+    z-index: 6;
+}
+
+#letter_submit{
+    left: 32vw;
+    top: 74vh;
+    z-index: 6;
+}
+
+#pen{
+    left: 34vw;
+    top: 26vh;
+    z-index: 2;
+}
+
+#letter_back{
+    top: 35vh;
+    left: 18vw;
+}
+
+#sent{
+    width: 30vw;
+    top:56.3vh;
+    left: 33vw;
+    z-index: 8;
+    display: none;
+}
+#cover{
+    background: #000; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 100vw;
+    height: 100vh;
+    filter: alpha(opacity=30); 
+    opacity: 0.3; 
+    display: none; 
+    z-index: 2 
+}
+
